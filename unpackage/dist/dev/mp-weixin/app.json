@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/mine/mine",
+    "pages/details/details",
+    "pages/treePlanting/treePlanting",
+    "pages/checkIn/checkIn",
+    "pages/carbonClothing/carbonClothing",
+    "pages/carbonDiet/carbonDiet",
+    "pages/carbonElectricity/carbonElectricity",
+    "pages/carbonTravel/carbonTravel",
+    "pages/policy/policy",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#00b783",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index1.png",
+        "selectedIconPath": "static/tabbar/index.2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/tabbar/shopping1.png",
+        "selectedIconPath": "static/tabbar/shopping2.png",
+        "text": "碳碳商城"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/mine1.png",
+        "selectedIconPath": "static/tabbar/mine2.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

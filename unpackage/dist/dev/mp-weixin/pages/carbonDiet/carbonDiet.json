@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "低碳饮食",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

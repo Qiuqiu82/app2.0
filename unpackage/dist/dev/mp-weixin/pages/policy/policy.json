@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "政策导向",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

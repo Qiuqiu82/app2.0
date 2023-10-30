@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "低碳用电",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}
