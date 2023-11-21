@@ -251,42 +251,42 @@ var _request2 = _interopRequireDefault(__webpack_require__(/*! ../../utils/reque
 //
 var IndexSwiper = function IndexSwiper() {
   __webpack_require__.e(/*! require.ensure | components/index/IndexSwiper */ "components/index/IndexSwiper").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/index/IndexSwiper.vue */ 164));
+    return resolve(__webpack_require__(/*! ../../components/index/IndexSwiper.vue */ 197));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var Recommend = function Recommend() {
   __webpack_require__.e(/*! require.ensure | components/index/Recommend */ "components/index/Recommend").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/index/Recommend.vue */ 171));
+    return resolve(__webpack_require__(/*! ../../components/index/Recommend.vue */ 204));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var Card = function Card() {
   __webpack_require__.e(/*! require.ensure | components/common/Card */ "components/common/Card").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/common/Card.vue */ 178));
+    return resolve(__webpack_require__(/*! ../../components/common/Card.vue */ 211));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var CommodityList = function CommodityList() {
   __webpack_require__.e(/*! require.ensure | components/common/CommodityList */ "components/common/CommodityList").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/common/CommodityList.vue */ 185));
+    return resolve(__webpack_require__(/*! ../../components/common/CommodityList.vue */ 218));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var Banner = function Banner() {
   __webpack_require__.e(/*! require.ensure | components/index/Banner */ "components/index/Banner").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/index/Banner.vue */ 190));
+    return resolve(__webpack_require__(/*! ../../components/index/Banner.vue */ 223));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var Icons = function Icons() {
   __webpack_require__.e(/*! require.ensure | components/index/Icons */ "components/index/Icons").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/index/Icons.vue */ 197));
+    return resolve(__webpack_require__(/*! ../../components/index/Icons.vue */ 230));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var Hot = function Hot() {
   __webpack_require__.e(/*! require.ensure | components/index/Hot */ "components/index/Hot").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/index/Hot.vue */ 204));
+    return resolve(__webpack_require__(/*! ../../components/index/Hot.vue */ 237));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var Shop = function Shop() {
   __webpack_require__.e(/*! require.ensure | components/index/Shop */ "components/index/Shop").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/index/Shop.vue */ 209));
+    return resolve(__webpack_require__(/*! ../../components/index/Shop.vue */ 242));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {

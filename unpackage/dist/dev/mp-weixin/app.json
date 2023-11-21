@@ -11,7 +11,11 @@
     "pages/carbonElectricity/carbonElectricity",
     "pages/carbonTravel/carbonTravel",
     "pages/policy/policy",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/login/login",
+    "pages/my-config/my-config",
+    "pages/my-path-list/my-path-list",
+    "pages/my-add-path/my-add-path"
   ],
   "subPackages": [],
   "window": {

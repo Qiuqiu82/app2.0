@@ -152,6 +152,74 @@
             }
             
         }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/my-config/my-config",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "设置",
+		        "navigationBarBackgroundColor": "#FFFFFF"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/my-path-list/my-path-list",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "地址管理",
+		        "navigationBarBackgroundColor": "#FFFFFF"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/my-add-path/my-add-path",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增地址",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#636263",
+								"text": "保存",
+								"fontSize": "16rpx",
+								"width":"60px"
+				
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/call/call",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/electric/electric",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

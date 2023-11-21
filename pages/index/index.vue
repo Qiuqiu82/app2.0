@@ -70,7 +70,7 @@ export default {
     redirectToCarbonElectricity() {
       // 跳转到低碳用电页面
       uni.navigateTo({
-        url: '/pages/carbonElectricity/carbonElectricity'
+        url: '/pages/electric/electric'
       });
     },
     redirectToCarbonTravel() {

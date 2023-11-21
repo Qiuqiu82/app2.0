@@ -1,6 +1,7 @@
 import App from './App'
 import axios from "./utils/request/request.js" 
-
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 // #ifndef VUE3
 import Vue from 'vue'
 import './uni.promisify.adaptor'
@@ -10,6 +11,7 @@ App.mpType = 'app'
 const app = new Vue({
   ...App
 })
+app.use(ElementPlus)
 Vue.prototype.$axios = axios
 app.$mount()
 // #endif

@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/common/Card":1,"components/index/Banner":1,"components/index/Icons":1,"components/index/IndexSwiper":1,"components/index/Recommend":1,"components/index/Shop":1,"components/uni/uni-number-box/uni-number-box":1,"components/common/Lines":1,"components/common/Commodity":1};
+/******/ 		var cssChunks = {"components/common/Card":1,"components/index/Banner":1,"components/index/Icons":1,"components/index/IndexSwiper":1,"components/index/Recommend":1,"components/index/Shop":1,"components/uni/uni-number-box/uni-number-box":1,"components/common/Lines":1,"components/uni/mpvue-citypicker/mpvueCityPicker":1,"components/common/Commodity":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/common/Card":"components/common/Card","components/common/CommodityList":"components/common/CommodityList","components/index/Banner":"components/index/Banner","components/index/Hot":"components/index/Hot","components/index/Icons":"components/index/Icons","components/index/IndexSwiper":"components/index/IndexSwiper","components/index/Recommend":"components/index/Recommend","components/index/Shop":"components/index/Shop","components/uni/uni-number-box/uni-number-box":"components/uni/uni-number-box/uni-number-box","components/common/Lines":"components/common/Lines","components/common/Commodity":"components/common/Commodity"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/common/Card":"components/common/Card","components/common/CommodityList":"components/common/CommodityList","components/index/Banner":"components/index/Banner","components/index/Hot":"components/index/Hot","components/index/Icons":"components/index/Icons","components/index/IndexSwiper":"components/index/IndexSwiper","components/index/Recommend":"components/index/Recommend","components/index/Shop":"components/index/Shop","components/uni/uni-number-box/uni-number-box":"components/uni/uni-number-box/uni-number-box","components/common/Lines":"components/common/Lines","components/uni/mpvue-citypicker/mpvueCityPicker":"components/uni/mpvue-citypicker/mpvueCityPicker","components/common/Commodity":"components/common/Commodity"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
